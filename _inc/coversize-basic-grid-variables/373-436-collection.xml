@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+	<variant name="gamelist-grid-small">
+		<aspectRatio name="1:1">
+			<variables>
+				<grid-base-item-w>0.187</grid-base-item-w>
+				<grid-base-item-h>0.218584450402145</grid-base-item-h>
+				<grid-item-spacing>0.00584375000000001</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+		<aspectRatio name="4:3, 3:2">
+			<variables>
+				<grid-base-item-w>0.155833333333333</grid-base-item-w>
+				<grid-base-item-h>0.242871611557939</grid-base-item-h>
+				<grid-item-spacing>0.00467500000000001</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+		<aspectRatio name="16:9, 16:10, 21:9">
+			<variables>
+				<grid-base-item-w>0.133571428571429</grid-base-item-w>
+				<grid-base-item-h>0.277567556066216</grid-base-item-h>
+				<grid-item-spacing>0.00389583333333333</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+	</variant>
+	<variant name="gamelist-grid-medium">
+		<aspectRatio name="1:1">
+			<variables>
+				<grid-base-item-w>0.23375</grid-base-item-w>
+				<grid-base-item-h>0.273230563002681</grid-base-item-h>
+				<grid-item-spacing>0.00779166666666668</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+		<aspectRatio name="4:3, 3:2">
+			<variables>
+				<grid-base-item-w>0.187</grid-base-item-w>
+				<grid-base-item-h>0.291445933869526</grid-base-item-h>
+				<grid-item-spacing>0.00584375000000001</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+		<aspectRatio name="16:9, 16:10, 21:9">
+			<variables>
+				<grid-base-item-w>0.155833333333333</grid-base-item-w>
+				<grid-base-item-h>0.323828815410585</grid-base-item-h>
+				<grid-item-spacing>0.00467500000000001</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+	</variant>
+	<variant name="gamelist-grid-large">
+		<aspectRatio name="1:1">
+			<variables>
+				<grid-base-item-w>0.311666666666667</grid-base-item-w>
+				<grid-base-item-h>0.364307417336908</grid-base-item-h>
+				<grid-item-spacing>0.0116875</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+		<aspectRatio name="4:3, 3:2">
+			<variables>
+				<grid-base-item-w>0.23375</grid-base-item-w>
+				<grid-base-item-h>0.364307417336908</grid-base-item-h>
+				<grid-item-spacing>0.00779166666666668</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+		<aspectRatio name="16:9, 16:10, 21:9">
+			<variables>
+				<grid-base-item-w>0.187</grid-base-item-w>
+				<grid-base-item-h>0.388594578492702</grid-base-item-h>
+				<grid-item-spacing>0.00584375000000001</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+	</variant>
+	<variant name="gamelist-grid-x-large">
+		<aspectRatio name="1:1">
+			<variables>
+				<grid-base-item-w>0.4675</grid-base-item-w>
+				<grid-base-item-h>0.546461126005362</grid-base-item-h>
+				<grid-item-spacing>0.023375</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+		<aspectRatio name="4:3, 3:2">
+			<variables>
+				<grid-base-item-w>0.311666666666667</grid-base-item-w>
+				<grid-base-item-h>0.485743223115877</grid-base-item-h>
+				<grid-item-spacing>0.0116875</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+		<aspectRatio name="16:9, 16:10, 21:9">
+			<variables>
+				<grid-base-item-w>0.23375</grid-base-item-w>
+				<grid-base-item-h>0.485743223115877</grid-base-item-h>
+				<grid-item-spacing>0.00779166666666668</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+	</variant>
+</theme>

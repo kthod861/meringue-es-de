@@ -1,0 +1,147 @@
+<theme>
+	
+	<!--SYSTEM-->
+	<view name="system">
+	<!--TotalGames-->
+		<text name="TotalGames">
+			<origin>1 0.5</origin>
+			<pos>${system_game_number_pos}</pos>
+			<!--<size>0.2 0.2</size>-->
+			<fontSize>${system_fontSize}</fontSize> 
+			<fontPath>${font_path}</fontPath>
+			<systemdata>gamecountGames</systemdata>
+			<letterCase>capitalize</letterCase>
+			<color>ffffff</color>
+			<opacity>0.7</opacity>
+			<stationary>withinView</stationary>
+			<horizontalAlignment>right</horizontalAlignment>
+			<zIndex>62</zIndex>
+		</text>
+		<text name="TotalGames_shadow">
+			<origin>1 0.4</origin>
+			<pos>${system_game_number_pos}</pos>
+			<!--<size>0.2 0.2</size>-->
+			<fontSize>${system_fontSize}</fontSize> 
+			<fontPath>${font_path}</fontPath>
+			<systemdata>gamecountGames</systemdata>
+			<letterCase>capitalize</letterCase>
+			<color>000000</color>
+			<opacity>0.3</opacity>
+			<stationary>withinView</stationary>
+			<horizontalAlignment>right</horizontalAlignment>
+			<zIndex>61</zIndex>
+		</text>
+	<!--Favorites-->
+		<text name="Favorites">
+			<origin>0 0.5</origin>
+			<pos>${system_favorites_pos}</pos>
+			<!--<size>0.2 0.1</size>-->
+			<fontSize>${system_fontSize}</fontSize> 
+			<fontPath>${font_path}</fontPath>
+			<systemdata>gamecountFavorites</systemdata>
+			<letterCase>capitalize</letterCase>
+			<color>ffffff</color>
+			<opacity>0.7</opacity>
+			<stationary>withinView</stationary>
+			<zIndex>62</zIndex>
+		</text>
+		<text name="Favorites_shadow">
+			<origin>-.1 0.4</origin>
+			<pos>${system_favorites_pos}</pos>
+			<!--<size>0.2 0.1</size>-->
+			<fontSize>${system_fontSize}</fontSize> 
+			<fontPath>${font_path}</fontPath>
+			<systemdata>gamecountFavorites</systemdata>
+			<letterCase>capitalize</letterCase>
+			<color>000000</color>
+			<opacity>0.3</opacity>
+			<stationary>withinView</stationary>
+			<zIndex>61</zIndex>
+		</text>
+	<!--Manufacturer-->
+		<text name="Manufacturer">
+			<origin>0.5 0.5</origin>
+			<pos>${system_manufacturer_pos}</pos>
+			<horizontalAlignment>center</horizontalAlignment>
+			<fontSize>${system_manufacturer_fontSize}</fontSize> 
+			<fontPath>${font_path}</fontPath>
+			<text>${systemManufacturer}  ${systemReleaseDateFormated}</text>
+			<defaultValue>--</defaultValue>
+			<letterCase>capitalize</letterCase>
+			<stationary>withinView</stationary>
+			<color>ffffff</color>
+			<opacity>0.8</opacity>
+			<zIndex>61</zIndex>
+		</text>
+		<image name="FG" >
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>${system_fg}</path>
+			<zIndex>60</zIndex>
+			<interpolation>linear</interpolation>
+			<stationary>withinView</stationary>
+		</image>
+	<!--Background for the logo-->
+		<image name="foreground_system_Brushed" >
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>${system_fg_brushed}</path>
+			<!--<brightness>0.25</brightness>-->
+			<!--<stationary>withinView</stationary>-->
+			<zIndex>2</zIndex>
+		</image>
+	<!--Logo-->
+		<image name="logo" >
+			<origin>0.5 0.5</origin>
+			<pos>${system_logo_pos}</pos>
+			<maxSize>${system_logo_maxSize}</maxSize>
+			<path>./_inc/systems/logos/${system.theme}.svg</path>
+			<interpolation>linear</interpolation>
+			<default>./_inc/systems/logos/_default.webp</default>
+			<metadataElement>false</metadataElement>
+			<brightness>0.3</brightness>
+			<zIndex>3</zIndex>
+		</image>
+		<image name="logo_shadow" >
+			<origin>0.49 0.45</origin>
+			<pos>${system_logo_pos}</pos>
+			<maxSize>${system_logo_maxSize}</maxSize>
+			<path>./_inc/systems/logos/${system.theme}.svg</path>
+			<interpolation>linear</interpolation>
+			<default>./_inc/systems/logos/_default.webp</default>
+			<metadataElement>false</metadataElement>
+			<opacity>0.2</opacity>
+			<color>000000</color>
+			<zIndex>2</zIndex>
+		</image>
+	<!--Carrousel-->
+		<carousel name="systemcarousel">
+			<origin>0 0</origin>
+			<pos>${carousel_pos}</pos>
+			<size>1 0.8</size>
+			<staticImage>./_inc/systems/controllers/${system.theme}.webp</staticImage>
+			<defaultImage>./_inc/systems/controllers/_default.webp</defaultImage>
+			<color>00000000</color>
+			<itemSize>${carousel_item_size}</itemSize>
+			<itemScale>${carousel_item_scale}</itemScale>
+			<selectedItemMargins>0.25 0.25</selectedItemMargins>
+			<unfocusedItemOpacity>0</unfocusedItemOpacity>
+			<fastScrolling>false</fastScrolling>
+			<textColor>FFFFFF</textColor>
+			<fadeAbovePrimary>true</fadeAbovePrimary>
+			<zIndex>3</zIndex>
+		</carousel>
+		<!-- Background -->
+		<image name="background_system">
+			<origin>0.5 1</origin>
+			<pos>0.5 1</pos>
+			<size>${background_size}</size>
+			<interpolation>linear</interpolation>
+			<default>${background_default}</default>
+			<path>${background_system}</path>
+			<zIndex>1</zIndex>
+		</image>
+
+	</view>
+</theme>

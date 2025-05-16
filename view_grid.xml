@@ -1,0 +1,205 @@
+<theme>
+
+	<!--GAMELIST-->
+	<view name="gamelist">
+		<!-- System logo -->
+		<image name="logo" >
+			<origin>0.5 0</origin>
+			<pos>${gamelist_logo_pos}</pos>
+			<maxSize>${gamelist_logo_maxSize}</maxSize>
+			<path>./_inc/systems/logos/${system.theme}.svg</path>
+			<interpolation>linear</interpolation>
+			<default>./_inc/systems/logos/_default.webp</default>
+			<brightness>0.3</brightness>
+			<zIndex>16</zIndex>
+		</image>
+		<image name="logo_shadow" >
+			<origin>0.49 0.01</origin>
+			<pos>${gamelist_logo_pos}</pos>
+			<maxSize>${gamelist_logo_maxSize}</maxSize>
+			<path>./_inc/systems/logos/${system.theme}.svg</path>
+			<interpolation>linear</interpolation>
+			<default>./_inc/systems/logos/_default.webp</default>
+			<opacity>0.2</opacity>
+			<color>000000</color>
+			<zIndex>15</zIndex>
+		</image>
+		<!-- Game name -->
+		<text name="md_name">
+			<origin>0.5 1</origin> 
+			<pos>${gamelist_gamename_pos}</pos>	
+			<size>0.5 ${gamelist_fontSize}</size>
+			<fontSize>${gamelist_fontSize}</fontSize>
+			<fontPath>${font_path}</fontPath>
+			<metadata>name</metadata>
+			<color>${fgColor}</color>
+			<horizontalAlignment>center</horizontalAlignment>
+			<container>true</container>
+			<containerType>horizontal</containerType>
+			<containerStartDelay>0.0</containerStartDelay>
+			<containerResetDelay>0.0</containerResetDelay>
+			<containerScrollGap>0.5</containerScrollGap>
+			<zIndex>16</zIndex>
+			<stationary>withinView</stationary>
+		</text>
+		<text name="md_name_shadow">
+			<origin>0.495 0.95</origin> 
+			<pos>${gamelist_gamename_pos}</pos>	
+			<size>0.5 ${gamelist_fontSize}</size>
+			<fontSize>${gamelist_fontSize}</fontSize>
+			<fontPath>${font_path}</fontPath>
+			<metadata>name</metadata>
+			<color>${fgColor}</color>
+			<horizontalAlignment>center</horizontalAlignment>
+			<container>true</container>
+			<containerType>horizontal</containerType>
+			<containerStartDelay>0.0</containerStartDelay>
+			<containerResetDelay>0.0</containerResetDelay>
+			<containerScrollGap>0.5</containerScrollGap>
+			<zIndex>15</zIndex>
+			<opacity>0.2</opacity>
+			<color>000000</color>
+			<stationary>withinView</stationary>
+		</text>
+		<!-- Left Infos -->
+		<badges name="badges">
+			<pos>0.01 0.078</pos>
+			<size>0.12 0.12</size>
+			<origin>0 0</origin>
+			<slots>folder, broken, favorite, completed, controller, manual, kidgame, altemulator, collection</slots>
+			<customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
+			<customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
+			<customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
+			<customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
+			<customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
+			<customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
+			<customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
+			<customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
+			<customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
+			<opacity>0.8</opacity>
+			<stationary>withinView</stationary>
+		</badges>
+		<text name="publisher">
+			<origin>0 0</origin> 
+			<pos>0.01 0.12</pos>
+			<size>0.22 ${fontSizeBody}</size>
+			<fontSize>0.023</fontSize>
+			<fontPath>${font_path}</fontPath>
+			<metadata>publisher</metadata>
+			<color>${fgColor}</color>
+			<container>true</container>
+			<containerType>horizontal</containerType>
+			<containerStartDelay>0.0</containerStartDelay>
+			<containerResetDelay>0.0</containerResetDelay>
+			<containerScrollGap>0.5</containerScrollGap>
+			<zIndex>16</zIndex>
+			<stationary>withinView</stationary>
+		</text>
+		<datetime name="datetime">
+			<origin>0 0</origin> 
+			<pos>0.01 0.151</pos>
+			<size>0.2 ${fontSizeBody}</size>
+			<fontSize>0.023</fontSize>
+			<fontPath>${font_path}</fontPath>
+			<opacity>1</opacity>
+			<metadata>releasedate</metadata>
+			<color>${fgColor}</color>
+			<defaultValue>...</defaultValue>
+			<format>%Y</format>
+			<zIndex>16</zIndex>
+			<stationary>withinView</stationary>
+		</datetime>
+		<rating name="rating">
+			<origin>0 0</origin>
+			<pos>0.08 0.151</pos>
+			<size>0.02 0.025</size>
+			<opacity>0.8</opacity>
+			<zIndex>16</zIndex>
+			<stationary>withinView</stationary>
+		</rating>
+		<!-- Right Infos -->
+		<text name="md_lbl_lastplayed">
+			<origin>0 0</origin> 
+			<pos>${gamelist_lbl_lastplayed_pos}</pos>	
+			<size>0.35 ${fontSizeBody}</size>				
+			<fontSize>0.02</fontSize>
+			<fontPath>${font_path}</fontPath>
+			<opacity>0.9</opacity>
+			<color>${fgColor}</color>
+			<text>Last played:</text>
+			<zIndex>16</zIndex>
+			<stationary>withinView</stationary>
+		</text>
+		<datetime name="md_lastplayed">
+			<origin>0 0</origin> 
+			<pos>${gamelist_lastplayed_pos}</pos>	
+			<size>0.40 ${fontSizeBody}</size>				
+			<fontSize>0.02</fontSize>
+			<fontPath>${font_path}</fontPath>
+			<opacity>0.9</opacity>
+			<metadata>lastplayed</metadata>
+			<defaultValue>...</defaultValue>
+			<color>${fgColor}</color>
+			<zIndex>16</zIndex>
+			<stationary>withinView</stationary>
+		</datetime>
+
+		<!-- Foreground-->
+		<image name="FG" >
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>${gamelist_fg}</path>
+			<origin>0 0</origin>
+			<interpolation>linear</interpolation>
+			<stationary>withinView</stationary>
+			<zIndex>15</zIndex>
+		</image>
+		<!--actual game grid -->
+		<grid name="grid">
+			<origin>0.5 1</origin>
+			<pos>0.515 1</pos>
+			<size>1 0.85</size>
+			<fractionalRows>true</fractionalRows>
+			<itemSize>${grid-base-item-w} ${grid-base-item-h}</itemSize>
+			<itemScale>1.05</itemScale>
+			<selectorRelativeScale>0.935</selectorRelativeScale>
+			<itemSpacing>${grid-item-spacing} -1</itemSpacing>
+			<selectorImage>./_inc/coversize-selector/${systemCoverSize}.svg</selectorImage>
+			<backgroundImage>./_inc/coversize-shadow/${systemCoverSize}.webp</backgroundImage>
+			<imageType>cover</imageType>
+			<unfocusedItemOpacity>1</unfocusedItemOpacity>
+			<unfocusedItemDimming>0.85</unfocusedItemDimming>
+			<unfocusedItemSaturation>1</unfocusedItemSaturation>
+			<textColor>ADADAD</textColor>
+			<fontPath>${font_path}</fontPath>
+			<fontSize>0.036111111111111</fontSize>
+			<selectorColor>FFFFFF</selectorColor>
+			<selectorLayer>top</selectorLayer>
+			<scaleInwards>false</scaleInwards>
+			<imageRelativeScale>0.97</imageRelativeScale>
+			<backgroundRelativeScale>0.995</backgroundRelativeScale>
+			<textRelativeScale>0.9</textRelativeScale>
+			<selectorRelativeScale>0.975</selectorRelativeScale>
+			<selectorCornerRadius>0.003</selectorCornerRadius>
+			<imageCornerRadius>0.004</imageCornerRadius>
+			<backgroundCornerRadius>0</backgroundCornerRadius>
+			<zIndex>13</zIndex>
+		</grid>
+		
+		<!-- Background -->
+		<image name="background gamelist">
+			<origin>0.5 1</origin>
+			<pos>0.5 1</pos>
+			<size>${background_size}</size>
+			<interpolation>linear</interpolation>
+			<default>${background_default}</default>
+			<path>${background_system}</path>
+			<opacity>0.1</opacity>
+			<zIndex>10</zIndex>
+		</image>
+		
+	</view>
+
+
+
+</theme>
