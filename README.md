@@ -1,7 +1,7 @@
 # Meringue ES DE theme
 
 Compatible with [ES-DE 3.2.0](https://es-de.org/).<br>
-Aspect ratio : 1:1 / 4:3 / 3:2 / 16:9 / 16:10 / 21:9 and more<br />
+Aspect ratio : 1:1 / 4:3 / 3:2 / 16:9 / 16:10 / 21:9 (1920/1080 assets resolution)<br />
 Gamelist view : Grid only with tiles sizes variant options small/medium/lage/extra large<br />
 Font size : small/medium/large<br />
 
