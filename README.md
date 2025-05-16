@@ -5,8 +5,7 @@ Aspect ratio : 1:1 / 4:3 / 3:2 / 16:9 / 16:10 / 21:9 (1920/1080 assets resolutio
 Gamelist view : Grid only with tiles sizes variant options small/medium/lage/extra large<br />
 Font size : small/medium/large<br />
 
-<img src="https://github.com/kthod861/Meringue_ES_DE_rg406/blob/main/screen.jpg" width="600" /><br />
-
+<img src="https://github.com/kthod861/meringue-es-de/blob/main/screen.jpg" width="600" /><br />
 
 TODO: <br />
 Based on discussions with LeonSe
