@@ -8,8 +8,6 @@ Font size : small/medium/large<br />
 <img src="https://github.com/kthod861/meringue-es-de/blob/main/screen.jpg" width="600" /><br />
 
 TODO: <br />
-Based on discussions with LeonSe
-- New repo ( so the theme can be added to the official theme list...aka no history )
 
 DONE: <br />
 - 1:1 4:3 3:2 16:9 16:10 21:9 aspect ratio supported
