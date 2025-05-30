@@ -16,7 +16,7 @@
 			
 			
 			<system_logo_pos>0.5 0.1042</system_logo_pos>
-			<system_logo_maxSize>.35 0.1</system_logo_maxSize>
+			<system_logo_maxSize>.4 0.1</system_logo_maxSize>
 			
 			<carousel_item_size>0.2 0.18</carousel_item_size>
 			<carousel_item_scale>3</carousel_item_scale>
@@ -79,7 +79,7 @@
 			
 			
 			<system_logo_pos>0.5 0.1347</system_logo_pos>
-			<system_logo_maxSize>.35 0.14</system_logo_maxSize>
+			<system_logo_maxSize>.4 0.13</system_logo_maxSize>
 			
 			<carousel_item_size>0.2 0.18</carousel_item_size>
 			<carousel_item_scale>3</carousel_item_scale>
@@ -142,7 +142,7 @@
 			
 			
 			<system_logo_pos>0.5 0.1347</system_logo_pos>
-			<system_logo_maxSize>.35 0.16</system_logo_maxSize>
+			<system_logo_maxSize>.4 0.16</system_logo_maxSize>
 			
 			<carousel_item_size>0.2 0.18</carousel_item_size>
 			<carousel_item_scale>3</carousel_item_scale>
@@ -205,7 +205,7 @@
 			<system_manufacturer_fontSize>0.02</system_manufacturer_fontSize> 
 			
 			<system_logo_pos>0.5 0.1333</system_logo_pos>
-			<system_logo_maxSize>.35 0.18</system_logo_maxSize>
+			<system_logo_maxSize>.37 0.18</system_logo_maxSize>
 			
 			<carousel_item_size>0.15 0.2</carousel_item_size>
 			<carousel_item_scale>3</carousel_item_scale>
@@ -266,7 +266,7 @@
 			<system_manufacturer_fontSize>0.02</system_manufacturer_fontSize> 
 			
 			<system_logo_pos>0.5 0.1333</system_logo_pos>
-			<system_logo_maxSize>.35 0.18</system_logo_maxSize>
+			<system_logo_maxSize>.4 0.18</system_logo_maxSize>
 			
 			<carousel_item_size>0.15 0.2</carousel_item_size>
 			<carousel_item_scale>3</carousel_item_scale>
@@ -328,7 +328,7 @@
 			<system_manufacturer_fontSize>0.02</system_manufacturer_fontSize> 
 			
 			<system_logo_pos>0.5 0.1333</system_logo_pos>
-			<system_logo_maxSize>.25 0.18</system_logo_maxSize>
+			<system_logo_maxSize>.28 0.18</system_logo_maxSize>
 			
 			<carousel_item_size>0.15 0.2</carousel_item_size>
 			<carousel_item_scale>3</carousel_item_scale>

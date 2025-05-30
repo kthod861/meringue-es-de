@@ -100,7 +100,7 @@
 			<interpolation>linear</interpolation>
 			<default>./_inc/systems/logos/_default.webp</default>
 			<metadataElement>false</metadataElement>
-			<brightness>0.3</brightness>
+			<brightness>0.2</brightness>
 			<zIndex>3</zIndex>
 		</image>
 		<image name="logo_shadow" >
