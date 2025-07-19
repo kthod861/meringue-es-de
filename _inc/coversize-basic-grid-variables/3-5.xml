@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <theme>
 	<variant name="gamelist-grid-small">
-		<aspectRatio name="1:1">
+		<aspectRatio name="1:1, 5:3_vertical">
 			<variables>
 				<grid-base-item-w>0.155833333333333</grid-base-item-w>
 				<grid-base-item-h>0.259722222222222</grid-base-item-h>
@@ -24,7 +24,7 @@
 		</aspectRatio>
 	</variant>
 	<variant name="gamelist-grid-medium">
-		<aspectRatio name="1:1">
+		<aspectRatio name="1:1, 5:3_vertical">
 			<variables>
 				<grid-base-item-w>0.187</grid-base-item-w>
 				<grid-base-item-h>0.311666666666667</grid-base-item-h>
@@ -47,7 +47,7 @@
 		</aspectRatio>
 	</variant>
 	<variant name="gamelist-grid-large">
-		<aspectRatio name="1:1">
+		<aspectRatio name="1:1, 5:3_vertical">
 			<variables>
 				<grid-base-item-w>0.23375</grid-base-item-w>
 				<grid-base-item-h>0.389583333333333</grid-base-item-h>
@@ -70,7 +70,7 @@
 		</aspectRatio>
 	</variant>
 	<variant name="gamelist-grid-x-large">
-		<aspectRatio name="1:1">
+		<aspectRatio name="1:1, 5:3_vertical">
 			<variables>
 				<grid-base-item-w>0.311666666666667</grid-base-item-w>
 				<grid-base-item-h>0.519444444444444</grid-base-item-h>

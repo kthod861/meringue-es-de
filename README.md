@@ -10,7 +10,8 @@ Font size : small/medium/large<br />
 TODO: <br />
 
 DONE: <br />
-- 1:1 4:3 3:2 16:9 16:10 21:9 aspect ratio supported
+- 3:5 aspect ratio added
+- 1:1 4:3 3:2 16:9 16:10 21:9 3:5 aspect ratio supported
 - 21:9 assets added
 - Ports assets updated
 - Gamelist grid size is now handled by variant options instead of font size

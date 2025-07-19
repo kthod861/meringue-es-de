@@ -381,4 +381,67 @@
 		</fontSize>
 	</aspectRatio>
 
+
+	<aspectRatio name="5:3_vertical">
+		<variables>
+			<system_fg>./_inc/images/System_FG_3_5.webp</system_fg>
+			<system_fg_brushed>./_inc/images/BCK_Header_3_5.webp</system_fg_brushed>
+			
+			<system_manufacturer_pos>0.5 0.115</system_manufacturer_pos>
+			<system_manufacturer_fontSize>0.019</system_manufacturer_fontSize> 
+			
+			
+			<system_logo_pos>0.5 0.062</system_logo_pos>
+			<system_logo_maxSize>.4 0.05</system_logo_maxSize>
+			
+			<carousel_item_size>0.3 0.18</carousel_item_size>
+			<carousel_item_scale>3</carousel_item_scale>
+			<carousel_pos>0 0.2</carousel_pos>
+			
+			<background_size>3 1</background_size>
+			<background_system>./_inc/systems/background/${system.theme}.webp</background_system>
+			<background_default>./_inc/systems/background/_default.webp</background_default>
+			
+			<gamelist_fg>./_inc/images/Gamelist_FG_3_5.webp</gamelist_fg>
+			<gamelist_lbl_lastplayed_pos>0.795 0.15</gamelist_lbl_lastplayed_pos>
+			<gamelist_lastplayed_pos>0.908 0.15</gamelist_lastplayed_pos>
+
+			<gamelist_gamename_pos>0.5 0.15</gamelist_gamename_pos>
+			<gamelist_logo_pos>0.5 0.005</gamelist_logo_pos>
+
+			<grid-scaled-w>0.98175</grid-scaled-w>
+		</variables>
+		<!--FONT SIZE-->
+		<fontSize name="small">
+			<variables>
+				<system_fontSize>0.02</system_fontSize> 
+				<system_game_number_pos>0.99 0.125</system_game_number_pos>
+				<system_favorites_pos>0.01 0.125</system_favorites_pos>
+				
+				<gamelist_fontSize>0.02</gamelist_fontSize>
+				<gamelist_logo_maxSize>0.5 0.55</gamelist_logo_maxSize>
+			</variables>
+		</fontSize>
+		<fontSize name="medium">
+			<variables>
+				<system_fontSize>0.025</system_fontSize> 
+				<system_game_number_pos>0.99 0.125</system_game_number_pos>
+				<system_favorites_pos>0.01 0.125</system_favorites_pos>
+				
+				<gamelist_fontSize>0.025</gamelist_fontSize>
+				<gamelist_logo_maxSize>0.5 0.055</gamelist_logo_maxSize>
+			</variables>
+		</fontSize>
+		<fontSize name="large">
+			<variables>
+				<system_fontSize>0.03</system_fontSize>
+				<system_game_number_pos>0.99 0.125</system_game_number_pos>
+				<system_favorites_pos>0.01 0.125</system_favorites_pos>
+				
+				<gamelist_fontSize>0.028</gamelist_fontSize>
+				<gamelist_logo_maxSize>0.5 0.055</gamelist_logo_maxSize>
+			</variables>
+		</fontSize>
+	</aspectRatio>
+
 </theme>
