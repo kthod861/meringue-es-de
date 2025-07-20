@@ -34,6 +34,9 @@
 			<gamelist_logo_pos>0.5 0.01</gamelist_logo_pos>
 
 			<grid-scaled-w>0.98175</grid-scaled-w>
+			<gamelist_rating_pos>0.08 0.151</gamelist_rating_pos>
+			<gamelist_releasedate_pos>0.01 0.151</gamelist_releasedate_pos>
+			<gamelist_publisher_pos>0.01 0.12</gamelist_publisher_pos>
 		</variables>
 		<!--FONT SIZE-->
 		<fontSize name="small">
@@ -97,6 +100,9 @@
 			<gamelist_logo_pos>0.5 0.01</gamelist_logo_pos>
 			
 			<grid-scaled-w>0.98175</grid-scaled-w>
+			<gamelist_rating_pos>0.08 0.151</gamelist_rating_pos>
+			<gamelist_releasedate_pos>0.01 0.151</gamelist_releasedate_pos>
+			<gamelist_publisher_pos>0.01 0.12</gamelist_publisher_pos>
 		</variables>
 		<!--FONT SIZE-->
 		<fontSize name="small">
@@ -160,6 +166,9 @@
 			<gamelist_logo_pos>0.5 0.01</gamelist_logo_pos>
 			
 			<grid-scaled-w>0.98175</grid-scaled-w>
+			<gamelist_rating_pos>0.08 0.151</gamelist_rating_pos>
+			<gamelist_releasedate_pos>0.01 0.151</gamelist_releasedate_pos>
+			<gamelist_publisher_pos>0.01 0.12</gamelist_publisher_pos>
 		</variables>
 		<!--FONT SIZE-->
 		<fontSize name="small">
@@ -223,6 +232,9 @@
 			<gamelist_logo_pos>0.5 0.01</gamelist_logo_pos>
 			
 			<grid-scaled-w>0.98175</grid-scaled-w>
+			<gamelist_rating_pos>0.08 0.151</gamelist_rating_pos>
+			<gamelist_releasedate_pos>0.01 0.151</gamelist_releasedate_pos>
+			<gamelist_publisher_pos>0.01 0.12</gamelist_publisher_pos>
 		</variables>
 		<!--FONT SIZE-->
 		<fontSize name="small">
@@ -285,6 +297,9 @@
 			<gamelist_logo_pos>0.5 0.01</gamelist_logo_pos>
 			
 			<grid-scaled-w>0.98175</grid-scaled-w>
+			<gamelist_rating_pos>0.08 0.151</gamelist_rating_pos>
+			<gamelist_releasedate_pos>0.01 0.151</gamelist_releasedate_pos>
+			<gamelist_publisher_pos>0.01 0.12</gamelist_publisher_pos>
 		</variables>
 		<!--FONT SIZE-->
 		<fontSize name="small">
@@ -347,6 +362,9 @@
 			<gamelist_logo_pos>0.5 0.01</gamelist_logo_pos>
 			
 			<grid-scaled-w>0.98175</grid-scaled-w>
+			<gamelist_rating_pos>0.08 0.151</gamelist_rating_pos>
+			<gamelist_releasedate_pos>0.01 0.151</gamelist_releasedate_pos>
+			<gamelist_publisher_pos>0.01 0.12</gamelist_publisher_pos>
 		</variables>
 		<!--FONT SIZE-->
 		<fontSize name="small">
@@ -403,13 +421,16 @@
 			<background_default>./_inc/systems/background/_default.webp</background_default>
 			
 			<gamelist_fg>./_inc/images/Gamelist_FG_3_5.webp</gamelist_fg>
-			<gamelist_lbl_lastplayed_pos>0.795 0.15</gamelist_lbl_lastplayed_pos>
-			<gamelist_lastplayed_pos>0.908 0.15</gamelist_lastplayed_pos>
+			<gamelist_lbl_lastplayed_pos>0.795 0.141</gamelist_lbl_lastplayed_pos>
+			<gamelist_lastplayed_pos>0.912 0.141</gamelist_lastplayed_pos>
 
-			<gamelist_gamename_pos>0.5 0.15</gamelist_gamename_pos>
-			<gamelist_logo_pos>0.5 0.005</gamelist_logo_pos>
+			<gamelist_gamename_pos>0.5 0.18</gamelist_gamename_pos>
+			<gamelist_logo_pos>0.5 0.05</gamelist_logo_pos>
 
 			<grid-scaled-w>0.98175</grid-scaled-w>
+			<gamelist_rating_pos>0.08 0.141</gamelist_rating_pos>
+			<gamelist_releasedate_pos>0.01 0.141</gamelist_releasedate_pos>
+			<gamelist_publisher_pos>0.01 0.11</gamelist_publisher_pos>
 		</variables>
 		<!--FONT SIZE-->
 		<fontSize name="small">

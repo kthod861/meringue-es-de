@@ -81,7 +81,7 @@
 		</badges>
 		<text name="publisher">
 			<origin>0 0</origin> 
-			<pos>0.01 0.12</pos>
+			<pos>${gamelist_publisher_pos}</pos>
 			<size>0.22 ${fontSizeBody}</size>
 			<fontSize>0.023</fontSize>
 			<fontPath>${font_path}</fontPath>
@@ -97,7 +97,7 @@
 		</text>
 		<datetime name="datetime">
 			<origin>0 0</origin> 
-			<pos>0.01 0.151</pos>
+			<pos>${gamelist_releasedate_pos}</pos>
 			<size>0.2 ${fontSizeBody}</size>
 			<fontSize>0.023</fontSize>
 			<fontPath>${font_path}</fontPath>
@@ -111,7 +111,7 @@
 		</datetime>
 		<rating name="rating">
 			<origin>0 0</origin>
-			<pos>0.08 0.151</pos>
+			<pos>${gamelist_rating_pos}</pos>
 			<size>0.02 0.025</size>
 			<opacity>0.8</opacity>
 			<zIndex>16</zIndex>
