@@ -138,11 +138,38 @@
 			<fontPath>${font_path}</fontPath>
 			<opacity>0.9</opacity>
 			<metadata>lastplayed</metadata>
-			<defaultValue>...</defaultValue>
+			<defaultValue>:space:</defaultValue>
 			<color>${fgColor}</color>
 			<zIndex>16</zIndex>
 			<stationary>withinView</stationary>
 		</datetime>
+
+		<text name="labelPlayTime">
+			<origin>0 0</origin> 
+			<pos>${gamelist_lbl_playtime_pos}</pos>	
+			<size>0.35 ${fontSizeBody}</size>				
+			<fontSize>0.02</fontSize>
+			<fontPath>${font_path}</fontPath>
+			<opacity>0.9</opacity>
+			<color>${fgColor}</color>
+			<text>Play time:</text>
+			<zIndex>16</zIndex>
+			<stationary>withinView</stationary>
+		</text>
+		<text name="playtime">
+			<origin>0 0</origin> 
+			<pos>${gamelist_playtime_pos}</pos>	
+			<size>0.40 ${fontSizeBody}</size>				
+			<fontSize>0.02</fontSize>
+			<fontPath>${font_path}</fontPath>
+			<opacity>0.9</opacity>
+			<metadata>playtime</metadata>
+			<defaultValue>:space:</defaultValue>
+			<color>${fgColor}</color>
+			<zIndex>16</zIndex>
+			<stationary>withinView</stationary>
+		</text>
+
 
 		<!-- Foreground-->
 		<image name="FG" >
