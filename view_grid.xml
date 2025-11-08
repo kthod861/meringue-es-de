@@ -126,18 +126,18 @@
 			<fontPath>${font_path}</fontPath>
 			<opacity>0.9</opacity>
 			<color>${fgColor}</color>
-			<text>Last played:</text>
+			<text>Play count:</text>
 			<zIndex>16</zIndex>
 			<stationary>withinView</stationary>
 		</text>
 		<datetime name="md_lastplayed">
-			<origin>0 0</origin> 
+			<origin>-0.02 0</origin> 
 			<pos>${gamelist_lastplayed_pos}</pos>	
 			<size>0.40 ${fontSizeBody}</size>				
 			<fontSize>0.02</fontSize>
 			<fontPath>${font_path}</fontPath>
-			<opacity>0.9</opacity>
-			<metadata>lastplayed</metadata>
+			<opacity>1</opacity>
+			<metadata>playcount</metadata>
 			<defaultValue>:space:</defaultValue>
 			<color>${fgColor}</color>
 			<zIndex>16</zIndex>
@@ -162,10 +162,15 @@
 			<size>0.40 ${fontSizeBody}</size>				
 			<fontSize>0.02</fontSize>
 			<fontPath>${font_path}</fontPath>
-			<opacity>0.9</opacity>
+			<opacity>1</opacity>
 			<metadata>playtime</metadata>
 			<defaultValue>:space:</defaultValue>
 			<color>${fgColor}</color>
+			<container>true</container>
+			<containerType>horizontal</containerType>
+			<containerStartDelay>0.0</containerStartDelay>
+			<containerResetDelay>0.0</containerResetDelay>
+			<containerScrollGap>0.5</containerScrollGap>			
 			<zIndex>16</zIndex>
 			<stationary>withinView</stationary>
 		</text>
