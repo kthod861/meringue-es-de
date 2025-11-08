@@ -131,7 +131,7 @@
 			<stationary>withinView</stationary>
 		</text>
 		<datetime name="md_lastplayed">
-			<origin>-0.02 0</origin> 
+			<origin>-0.05 0</origin> 
 			<pos>${gamelist_lastplayed_pos}</pos>	
 			<size>0.40 ${fontSizeBody}</size>				
 			<fontSize>0.02</fontSize>
