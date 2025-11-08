@@ -118,7 +118,7 @@
 			<stationary>withinView</stationary>
 		</rating>
 		<!-- Right Infos -->
-		<text name="md_lbl_lastplayed">
+		<text name="md_lbl_playcount">
 			<origin>0 0</origin> 
 			<pos>${gamelist_lbl_lastplayed_pos}</pos>	
 			<size>0.35 ${fontSizeBody}</size>				
@@ -130,8 +130,8 @@
 			<zIndex>16</zIndex>
 			<stationary>withinView</stationary>
 		</text>
-		<datetime name="md_lastplayed">
-			<origin>-0.05 0</origin> 
+		<text name="md_playcount">
+			<origin>0 0</origin> 
 			<pos>${gamelist_lastplayed_pos}</pos>	
 			<size>0.40 ${fontSizeBody}</size>				
 			<fontSize>0.02</fontSize>
@@ -142,7 +142,7 @@
 			<color>${fgColor}</color>
 			<zIndex>16</zIndex>
 			<stationary>withinView</stationary>
-		</datetime>
+		</text>
 
 		<text name="labelPlayTime">
 			<origin>0 0</origin> 

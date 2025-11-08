@@ -28,10 +28,10 @@
 			
 			<gamelist_fg>./_inc/images/Gamelist_FG_1_1.webp</gamelist_fg>
 			<gamelist_lbl_lastplayed_pos>0.795 0.15</gamelist_lbl_lastplayed_pos>
-			<gamelist_lastplayed_pos>0.908 0.15</gamelist_lastplayed_pos>
+			<gamelist_lastplayed_pos>0.918 0.15</gamelist_lastplayed_pos>
 
 			<gamelist_lbl_playtime_pos>0.795 0.12</gamelist_lbl_playtime_pos>
-			<gamelist_playtime_pos>0.908 0.12</gamelist_playtime_pos>
+			<gamelist_playtime_pos>0.918 0.12</gamelist_playtime_pos>
 
 			<gamelist_gamename_pos>0.5 0.122</gamelist_gamename_pos>
 			<gamelist_logo_pos>0.5 0.01</gamelist_logo_pos>
@@ -97,10 +97,10 @@
 			
 			<gamelist_fg>./_inc/images/Gamelist_FG_4_3.webp</gamelist_fg>
 			<gamelist_lbl_lastplayed_pos>0.8 0.15</gamelist_lbl_lastplayed_pos>
-			<gamelist_lastplayed_pos>0.892 0.15</gamelist_lastplayed_pos>
+			<gamelist_lastplayed_pos>0.9 0.15</gamelist_lastplayed_pos>
 
 			<gamelist_lbl_playtime_pos>0.8 0.12</gamelist_lbl_playtime_pos>
-			<gamelist_playtime_pos>0.892 0.12</gamelist_playtime_pos>
+			<gamelist_playtime_pos>0.9 0.12</gamelist_playtime_pos>
 
 			<gamelist_gamename_pos>0.5 0.122</gamelist_gamename_pos>
 			<gamelist_logo_pos>0.5 0.01</gamelist_logo_pos>
@@ -208,7 +208,7 @@
 				<system_game_number_pos>0.99 0.28</system_game_number_pos>				
 				<system_favorites_pos>0.01 0.28</system_favorites_pos>
 				
-				<gamelist_fontSize>0.04</gamelist_fontSize>
+				<gamelist_fontSize>0.05</gamelist_fontSize>
 				<gamelist_logo_maxSize>0.5 0.065</gamelist_logo_maxSize>
 			</variables>
 		</fontSize>
