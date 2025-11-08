@@ -3,7 +3,7 @@
 		<fontSizeBody>0.03</fontSizeBody> 
 		<bgColor>000000</bgColor>
 		<fgColor>dcdcdc</fgColor>
-		<font_path>./_inc/fonts/font.ttf</font_path>
+		<font_path>./_inc/fonts/5by7.ttf</font_path>
 	</variables>
 
 	<aspectRatio name="1:1">
@@ -44,7 +44,7 @@
 		<!--FONT SIZE-->
 		<fontSize name="small">
 			<variables>
-				<system_fontSize>0.02</system_fontSize> 
+				<system_fontSize>0.015</system_fontSize> 
 				<system_game_number_pos>0.99 0.2215</system_game_number_pos>
 				<system_favorites_pos>0.01 0.2215</system_favorites_pos>
 				
@@ -54,7 +54,7 @@
 		</fontSize>
 		<fontSize name="medium">
 			<variables>
-				<system_fontSize>0.025</system_fontSize> 
+				<system_fontSize>0.02</system_fontSize> 
 				<system_game_number_pos>0.99 0.2215</system_game_number_pos>
 				<system_favorites_pos>0.01 0.2215</system_favorites_pos>
 				
@@ -64,7 +64,7 @@
 		</fontSize>
 		<fontSize name="large">
 			<variables>
-				<system_fontSize>0.03</system_fontSize>
+				<system_fontSize>0.025</system_fontSize>
 				<system_game_number_pos>0.99 0.2215</system_game_number_pos>
 				<system_favorites_pos>0.01 0.2215</system_favorites_pos>
 				
@@ -123,17 +123,17 @@
 		</fontSize>
 		<fontSize name="medium">
 			<variables>
-				<system_fontSize>0.025</system_fontSize> 
+				<system_fontSize>0.015</system_fontSize> 
 				<system_game_number_pos>0.99 0.28</system_game_number_pos>
 				<system_favorites_pos>0.01 0.28</system_favorites_pos>
 				
-				<gamelist_fontSize>0.03</gamelist_fontSize>
+				<gamelist_fontSize>0.02</gamelist_fontSize>
 				<gamelist_logo_maxSize>0.5 0.075</gamelist_logo_maxSize>
 			</variables>
 		</fontSize>
 		<fontSize name="large">
 			<variables>
-				<system_fontSize>0.03</system_fontSize>
+				<system_fontSize>0.025</system_fontSize>
 				<system_game_number_pos>0.99 0.28</system_game_number_pos>				
 				<system_favorites_pos>0.01 0.28</system_favorites_pos>
 				
@@ -193,18 +193,18 @@
 		</fontSize>
 		<fontSize name="medium">
 			<variables>
-				<system_fontSize>0.025</system_fontSize> 
+				<system_fontSize>0.015</system_fontSize> 
 				<system_game_number_pos>0.99 0.28</system_game_number_pos>
 				<system_favorites_pos>0.01 0.28</system_favorites_pos>
 				
 
-				<gamelist_fontSize>0.03</gamelist_fontSize>
+				<gamelist_fontSize>0.02</gamelist_fontSize>
 				<gamelist_logo_maxSize>0.5 0.075</gamelist_logo_maxSize>
 			</variables>
 		</fontSize>
 		<fontSize name="large">
 			<variables>
-				<system_fontSize>0.03</system_fontSize>
+				<system_fontSize>0.025</system_fontSize>
 				<system_game_number_pos>0.99 0.28</system_game_number_pos>				
 				<system_favorites_pos>0.01 0.28</system_favorites_pos>
 				
@@ -261,17 +261,17 @@
 		</fontSize>
 		<fontSize name="medium">
 			<variables>
-				<system_fontSize>0.025</system_fontSize> 
+				<system_fontSize>0.015</system_fontSize> 
 				<system_game_number_pos>0.99 0.305</system_game_number_pos>
 				<system_favorites_pos>0.01 0.305</system_favorites_pos>
 				
-				<gamelist_fontSize>0.03</gamelist_fontSize>
+				<gamelist_fontSize>0.02</gamelist_fontSize>
 				<gamelist_logo_maxSize>0.5 0.07</gamelist_logo_maxSize>
 			</variables>
 		</fontSize>
 		<fontSize name="large">
 			<variables>
-				<system_fontSize>0.03</system_fontSize>
+				<system_fontSize>0.025</system_fontSize>
 				<system_game_number_pos>0.99 0.305</system_game_number_pos>
 				<system_favorites_pos>0.01 0.305</system_favorites_pos>
 				
@@ -329,17 +329,17 @@
 		</fontSize>
 		<fontSize name="medium">
 			<variables>
-				<system_fontSize>0.025</system_fontSize> 
+				<system_fontSize>0.015</system_fontSize> 
 				<system_game_number_pos>0.99 0.305</system_game_number_pos>
 				<system_favorites_pos>0.01 0.305</system_favorites_pos>
 				
-				<gamelist_fontSize>0.03</gamelist_fontSize>
+				<gamelist_fontSize>0.02</gamelist_fontSize>
 				<gamelist_logo_maxSize>0.5 0.07</gamelist_logo_maxSize>
 			</variables>
 		</fontSize>
 		<fontSize name="large">
 			<variables>
-				<system_fontSize>0.03</system_fontSize>
+				<system_fontSize>0.025</system_fontSize>
 				<system_game_number_pos>0.99 0.305</system_game_number_pos>
 				<system_favorites_pos>0.01 0.305</system_favorites_pos>
 				
@@ -397,17 +397,17 @@
 		</fontSize>
 		<fontSize name="medium">
 			<variables>
-				<system_fontSize>0.03</system_fontSize> 
+				<system_fontSize>0.025</system_fontSize> 
 				<system_game_number_pos>0.99 0.305</system_game_number_pos>
 				<system_favorites_pos>0.01 0.305</system_favorites_pos>
 				
-				<gamelist_fontSize>0.033</gamelist_fontSize>
+				<gamelist_fontSize>0.03</gamelist_fontSize>
 				<gamelist_logo_maxSize>0.5 0.07</gamelist_logo_maxSize>
 			</variables>
 		</fontSize>
 		<fontSize name="large">
 			<variables>
-				<system_fontSize>0.04</system_fontSize>
+				<system_fontSize>0.035</system_fontSize>
 				<system_game_number_pos>0.99 0.305</system_game_number_pos>
 				<system_favorites_pos>0.01 0.305</system_favorites_pos>
 				
@@ -466,17 +466,17 @@
 		</fontSize>
 		<fontSize name="medium">
 			<variables>
-				<system_fontSize>0.025</system_fontSize> 
+				<system_fontSize>0.015</system_fontSize> 
 				<system_game_number_pos>0.99 0.125</system_game_number_pos>
 				<system_favorites_pos>0.01 0.125</system_favorites_pos>
 				
-				<gamelist_fontSize>0.025</gamelist_fontSize>
+				<gamelist_fontSize>0.02</gamelist_fontSize>
 				<gamelist_logo_maxSize>0.6 0.08</gamelist_logo_maxSize>
 			</variables>
 		</fontSize>
 		<fontSize name="large">
 			<variables>
-				<system_fontSize>0.03</system_fontSize>
+				<system_fontSize>0.025</system_fontSize>
 				<system_game_number_pos>0.99 0.125</system_game_number_pos>
 				<system_favorites_pos>0.01 0.125</system_favorites_pos>
 				
