@@ -62,6 +62,31 @@
 			<stationary>withinView</stationary>
 		</text>
 		<!-- Left Infos -->
+
+		<text name="collectionsSystemName">
+			<origin>0 0</origin> 
+			<pos>0.01 0.04</pos>
+			<size>0.22 ${fontSizeBody}</size>
+			<fontSize>0.023</fontSize>
+			<fontPath>${font_path}</fontPath>
+			<color>${fgColor}</color>
+			<container>true</container>
+			<containerType>horizontal</containerType>
+			<containerStartDelay>0.0</containerStartDelay>
+			<containerResetDelay>0.0</containerResetDelay>
+			<containerScrollGap>0.5</containerScrollGap>
+			<zIndex>16</zIndex>
+			<stationary>withinView</stationary>
+			<defaultValue>:space:</defaultValue>
+			<!--<text>${system.fullName}</text>-->
+			<!--<metadata>sourceSystemFullname</metadata>-->
+			<letterCase>capitalize</letterCase>
+		</text>
+
+
+
+
+
 		<badges name="badges">
 			<pos>0.01 0.078</pos>
 			<size>0.12 0.12</size>
