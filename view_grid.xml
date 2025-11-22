@@ -41,6 +41,7 @@
 			<containerScrollGap>0.5</containerScrollGap>
 			<zIndex>16</zIndex>
 			<stationary>withinView</stationary>
+			<systemNameSuffix>false</systemNameSuffix>
 		</text>
 		<text name="md_name_shadow">
 			<origin>0.495 0.95</origin> 
@@ -60,6 +61,7 @@
 			<opacity>0.2</opacity>
 			<color>000000</color>
 			<stationary>withinView</stationary>
+			<systemNameSuffix>false</systemNameSuffix>
 		</text>
 		<!-- Left Infos -->
 
