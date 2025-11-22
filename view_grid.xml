@@ -86,6 +86,7 @@
 			<fontSize>0.023</fontSize>
 			<fontPath>${font_path}</fontPath>
 			<metadata>publisher</metadata>
+			<defaultValue>:space:</defaultValue>
 			<color>${fgColor}</color>
 			<container>true</container>
 			<containerType>horizontal</containerType>
@@ -104,7 +105,7 @@
 			<opacity>1</opacity>
 			<metadata>releasedate</metadata>
 			<color>${fgColor}</color>
-			<defaultValue>...</defaultValue>
+			<defaultValue>:space:</defaultValue>
 			<format>%Y</format>
 			<zIndex>16</zIndex>
 			<stationary>withinView</stationary>
@@ -114,6 +115,7 @@
 			<pos>${gamelist_rating_pos}</pos>
 			<size>0.02 0.025</size>
 			<opacity>0.8</opacity>
+			<hideIfZero>true</hideIfZero>
 			<zIndex>16</zIndex>
 			<stationary>withinView</stationary>
 		</rating>
