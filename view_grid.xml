@@ -85,10 +85,6 @@
 			<letterCase>capitalize</letterCase>
 		</text>
 
-
-
-
-
 		<badges name="badges">
 			<pos>0.01 0.078</pos>
 			<size>0.12 0.12</size>
@@ -217,19 +213,19 @@
 		</image>
 		<!--actual game grid -->
 		<grid name="grid">
-			<origin>0.5 1</origin>
-			<pos>0.515 1</pos>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.55</pos>
 			<size>1 0.85</size>
 			<fractionalRows>true</fractionalRows>
 			<itemSize>${grid-base-item-w} ${grid-base-item-h}</itemSize>
-			<itemScale>1.05</itemScale>
+			<itemScale>1.15</itemScale>
 			<selectorRelativeScale>0.935</selectorRelativeScale>
 			<itemSpacing>${grid-item-spacing} -1</itemSpacing>
 			<selectorImage>./_inc/coversize-selector/${systemCoverSize}.svg</selectorImage>
 			<backgroundImage>./_inc/coversize-shadow/${systemCoverSize}.webp</backgroundImage>
 			<imageType>cover</imageType>
 			<unfocusedItemOpacity>1</unfocusedItemOpacity>
-			<unfocusedItemDimming>0.85</unfocusedItemDimming>
+			<unfocusedItemDimming>1</unfocusedItemDimming>
 			<unfocusedItemSaturation>1</unfocusedItemSaturation>
 			<textColor>ADADAD</textColor>
 			<fontPath>${font_path}</fontPath>
@@ -237,7 +233,7 @@
 			<selectorColor>FFFFFF</selectorColor>
 			<selectorLayer>top</selectorLayer>
 			<scaleInwards>false</scaleInwards>
-			<imageRelativeScale>0.97</imageRelativeScale>
+			<imageRelativeScale>0.90</imageRelativeScale>
 			<backgroundRelativeScale>0.995</backgroundRelativeScale>
 			<textRelativeScale>0.9</textRelativeScale>
 			<selectorRelativeScale>0.975</selectorRelativeScale>
