@@ -32,7 +32,7 @@
 			<fontSize>${gamelist_fontSize}</fontSize>
 			<fontPath>${font_path}</fontPath>
 			<metadata>name</metadata>
-			<color>${fgColor}</color>
+			<color>FFFFFF</color>
 			<horizontalAlignment>center</horizontalAlignment>
 			<container>true</container>
 			<containerType>horizontal</containerType>
