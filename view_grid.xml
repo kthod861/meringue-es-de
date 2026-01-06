@@ -233,7 +233,7 @@
 			<selectorColor>FFFFFF</selectorColor>
 			<selectorLayer>top</selectorLayer>
 			<scaleInwards>false</scaleInwards>
-			<imageRelativeScale>0.90</imageRelativeScale>
+			<imageRelativeScale>0.97</imageRelativeScale>
 			<backgroundRelativeScale>0.995</backgroundRelativeScale>
 			<textRelativeScale>0.9</textRelativeScale>
 			<selectorRelativeScale>0.975</selectorRelativeScale>
