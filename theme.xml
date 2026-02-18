@@ -1,7 +1,7 @@
 <theme>
 	<include>./_inc/systems/metadata-global/_default.xml</include>
 	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
-	<include>./_inc/coversize-basic-grid-variables/${systemCoverSize}.xml</include>
+	<include>./coversize.xml</include>
 	<include>./variables.xml</include>
 	<include>./view_system.xml</include>
 	<include>./view_grid.xml</include>

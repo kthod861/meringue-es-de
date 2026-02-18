@@ -214,32 +214,35 @@
 		<!--actual game grid -->
 		<grid name="grid">
 			<origin>0.5 0.5</origin>
-			<pos>0.5 0.55</pos>
-			<size>1 0.85</size>
-			<fractionalRows>true</fractionalRows>
-			<itemSize>${grid-base-item-w} ${grid-base-item-h}</itemSize>
-			<itemScale>1.15</itemScale>
-			<selectorRelativeScale>0.935</selectorRelativeScale>
-			<itemSpacing>${grid-item-spacing} -1</itemSpacing>
-			<selectorImage>./_inc/coversize-selector/${systemCoverSize}.svg</selectorImage>
-			<backgroundImage>./_inc/coversize-shadow/${systemCoverSize}.webp</backgroundImage>
+			<pos>0.5 0.57</pos>
+			<size>1 0.87</size>
 			<imageType>cover</imageType>
+			<imageFit>cover</imageFit>
+			<imageCropPos>0 0</imageCropPos>
+			<imageCornerRadius>0.006</imageCornerRadius>
+			<imageRelativeScale>0.95</imageRelativeScale>
+			<!--<imageGradientType>vertical</imageGradientType>
+			<imageColor>FFFFFFFF</imageColor>
+			<imageColorEnd>1717175C</imageColorEnd>
+			<imageSelectedColorEnd>FFFFFFFF</imageSelectedColorEnd>-->
+			<itemSize>${grid-base-item-w} ${grid-base-item-h}</itemSize>
+			<itemScale>1.2</itemScale>
+			<itemSpacing>${grid-item-spacing} -1</itemSpacing>
+			<fractionalRows>true</fractionalRows>
+			<scaleInwards>true</scaleInwards>
 			<unfocusedItemOpacity>1</unfocusedItemOpacity>
-			<unfocusedItemDimming>1</unfocusedItemDimming>
+			<unfocusedItemDimming>.8</unfocusedItemDimming>
 			<unfocusedItemSaturation>1</unfocusedItemSaturation>
 			<textColor>ADADAD</textColor>
 			<fontPath>${font_path}</fontPath>
 			<fontSize>0.036111111111111</fontSize>
-			<selectorColor>FFFFFF</selectorColor>
-			<selectorLayer>top</selectorLayer>
-			<scaleInwards>false</scaleInwards>
-			<imageRelativeScale>0.97</imageRelativeScale>
-			<backgroundRelativeScale>0.995</backgroundRelativeScale>
 			<textRelativeScale>0.9</textRelativeScale>
+			<backgroundImage>./_inc/images/shadow.webp</backgroundImage>
+			<selectorImage>./_inc/images/selector.svg</selectorImage>
 			<selectorRelativeScale>0.975</selectorRelativeScale>
-			<selectorCornerRadius>0.003</selectorCornerRadius>
-			<imageCornerRadius>0.004</imageCornerRadius>
-			<backgroundCornerRadius>0</backgroundCornerRadius>
+			<selectorCornerRadius>0.006</selectorCornerRadius>
+			<selectorColor>FFFFFF80</selectorColor>
+			<selectorLayer>middle</selectorLayer>			
 			<zIndex>13</zIndex>
 		</grid>
 		
@@ -251,7 +254,8 @@
 			<interpolation>linear</interpolation>
 			<default>${background_default}</default>
 			<path>${background_system}</path>
-			<opacity>0.1</opacity>
+			<saturation>0.5</saturation>
+			<opacity>0.05</opacity>
 			<zIndex>10</zIndex>
 		</image>
 		

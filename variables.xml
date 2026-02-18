@@ -431,8 +431,8 @@
 			<system_logo_maxSize>.4 0.05</system_logo_maxSize>
 			
 			<carousel_item_size>0.3 0.18</carousel_item_size>
-			<carousel_item_scale>3</carousel_item_scale>
-			<carousel_pos>0 0.2</carousel_pos>
+			<carousel_item_scale>2</carousel_item_scale>
+			<carousel_pos>0 -0.08</carousel_pos>
 			
 			<background_size>3 1</background_size>
 			<background_system>./_inc/systems/background/${system.theme}.webp</background_system>
@@ -440,7 +440,7 @@
 			
 			<gamelist_fg>./_inc/images/Gamelist_FG_3_5.webp</gamelist_fg>
 			<gamelist_lbl_lastplayed_pos>0.795 0.139</gamelist_lbl_lastplayed_pos>
-			<gamelist_lastplayed_pos>0.912 0.139</gamelist_lastplayed_pos>
+			<gamelist_lastplayed_pos>0.917 0.139</gamelist_lastplayed_pos>
 
 			<gamelist_lbl_playtime_pos>0.795 0.109</gamelist_lbl_playtime_pos>
 			<gamelist_playtime_pos>0.912 0.109</gamelist_playtime_pos>
