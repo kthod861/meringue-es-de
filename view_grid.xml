@@ -217,16 +217,16 @@
 			<pos>0.5 0.57</pos>
 			<size>1 0.87</size>
 			<imageType>cover</imageType>
-			<imageFit>cover</imageFit>
+			<imageFit>contain</imageFit>
 			<imageCropPos>0 0</imageCropPos>
-			<imageCornerRadius>0.006</imageCornerRadius>
-			<imageRelativeScale>0.95</imageRelativeScale>
+			<imageCornerRadius>0.01</imageCornerRadius>
+			<imageRelativeScale>0.90</imageRelativeScale>
 			<!--<imageGradientType>vertical</imageGradientType>
 			<imageColor>FFFFFFFF</imageColor>
 			<imageColorEnd>1717175C</imageColorEnd>
 			<imageSelectedColorEnd>FFFFFFFF</imageSelectedColorEnd>-->
 			<itemSize>${grid-base-item-w} ${grid-base-item-h}</itemSize>
-			<itemScale>1.2</itemScale>
+			<itemScale>1.3</itemScale>
 			<itemSpacing>${grid-item-spacing} -1</itemSpacing>
 			<fractionalRows>true</fractionalRows>
 			<scaleInwards>true</scaleInwards>
@@ -238,11 +238,13 @@
 			<fontSize>0.036111111111111</fontSize>
 			<textRelativeScale>0.9</textRelativeScale>
 			<backgroundImage>./_inc/images/shadow.webp</backgroundImage>
-			<selectorImage>./_inc/images/selector.svg</selectorImage>
+			<backgroundCornerRadius>0.01</backgroundCornerRadius>
+
+			<!--<selectorImage>./_inc/images/selector.svg</selectorImage>
 			<selectorRelativeScale>0.975</selectorRelativeScale>
 			<selectorCornerRadius>0.006</selectorCornerRadius>
 			<selectorColor>FFFFFF80</selectorColor>
-			<selectorLayer>middle</selectorLayer>			
+			<selectorLayer>middle</selectorLayer>-->
 			<zIndex>13</zIndex>
 		</grid>
 		
@@ -254,8 +256,8 @@
 			<interpolation>linear</interpolation>
 			<default>${background_default}</default>
 			<path>${background_system}</path>
-			<saturation>0.5</saturation>
-			<opacity>0.05</opacity>
+			<saturation>.3</saturation>
+			<opacity>0.2</opacity>
 			<zIndex>10</zIndex>
 		</image>
 		
