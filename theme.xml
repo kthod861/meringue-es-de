@@ -1,7 +1,8 @@
 <theme>
 	<include>./_inc/systems/metadata-global/_default.xml</include>
 	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
-	<include>./coversize.xml</include>
+	<include>./_inc/systems/simple_coversizes/_default.xml</include>
+	<include>./_inc/systems/simple_coversizes/${system.theme}.xml</include>
 	<include>./variables.xml</include>
 	<include>./view_system.xml</include>
 	<include>./view_grid.xml</include>

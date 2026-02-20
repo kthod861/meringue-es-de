@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <theme>
 <variant name="gamelist-grid-small">
   <aspectRatio name="1:1">
@@ -17,14 +16,14 @@
   </aspectRatio>
   <aspectRatio name="4:3, 3:2">
     <variables>
-        <grid-base-item-w>0.166</grid-base-item-w>
+        <grid-base-item-w>0.142</grid-base-item-w>
         <grid-base-item-h>0.169</grid-base-item-h>
         <grid-item-spacing>0.0</grid-item-spacing>
     </variables>
   </aspectRatio>
   <aspectRatio name="16:9, 16:10, 21:9">
     <variables>
-        <grid-base-item-w>0.142</grid-base-item-w>
+        <grid-base-item-w>0.110</grid-base-item-w>
         <grid-base-item-h>0.169</grid-base-item-h>
         <grid-item-spacing>0.0</grid-item-spacing>
     </variables>
@@ -47,14 +46,14 @@
   </aspectRatio>
   <aspectRatio name="4:3, 3:2">
     <variables>
-        <grid-base-item-w>0.199</grid-base-item-w>
+        <grid-base-item-w>0.166</grid-base-item-w>
         <grid-base-item-h>0.211</grid-base-item-h>
         <grid-item-spacing>0.0</grid-item-spacing>
     </variables>
   </aspectRatio>
   <aspectRatio name="16:9, 16:10, 21:9">
     <variables>
-        <grid-base-item-w>0.166</grid-base-item-w>
+        <grid-base-item-w>0.142</grid-base-item-w>
         <grid-base-item-h>0.211</grid-base-item-h>
         <grid-item-spacing>0.0</grid-item-spacing>
     </variables>
@@ -84,7 +83,7 @@
   </aspectRatio>
   <aspectRatio name="16:9, 16:10, 21:9">
     <variables>
-        <grid-base-item-w>0.249</grid-base-item-w>
+        <grid-base-item-w>0.199</grid-base-item-w>
         <grid-base-item-h>0.282</grid-base-item-h>
         <grid-item-spacing>0.0</grid-item-spacing>
     </variables>
