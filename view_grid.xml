@@ -221,30 +221,20 @@
 			<imageCropPos>0 0</imageCropPos>
 			<imageCornerRadius>0.01</imageCornerRadius>
 			<imageRelativeScale>0.90</imageRelativeScale>
-			<!--<imageGradientType>vertical</imageGradientType>
-			<imageColor>FFFFFFFF</imageColor>
-			<imageColorEnd>1717175C</imageColorEnd>
-			<imageSelectedColorEnd>FFFFFFFF</imageSelectedColorEnd>-->
+			<defaultImage>./_inc/images/cartridge-dark.png</defaultImage>
 			<itemSize>${grid-base-item-w} ${grid-base-item-h}</itemSize>
 			<itemScale>1.3</itemScale>
 			<itemSpacing>${grid-item-spacing} -1</itemSpacing>
 			<fractionalRows>true</fractionalRows>
 			<scaleInwards>true</scaleInwards>
 			<unfocusedItemOpacity>1</unfocusedItemOpacity>
-			<unfocusedItemDimming>.8</unfocusedItemDimming>
-			<unfocusedItemSaturation>1</unfocusedItemSaturation>
+			<unfocusedItemSaturation>.8</unfocusedItemSaturation>
 			<textColor>ADADAD</textColor>
 			<fontPath>${font_path}</fontPath>
 			<fontSize>0.036111111111111</fontSize>
 			<textRelativeScale>0.9</textRelativeScale>
 			<backgroundImage>./_inc/images/shadow.webp</backgroundImage>
 			<backgroundCornerRadius>0.01</backgroundCornerRadius>
-
-			<!--<selectorImage>./_inc/images/selector.svg</selectorImage>
-			<selectorRelativeScale>0.975</selectorRelativeScale>
-			<selectorCornerRadius>0.006</selectorCornerRadius>
-			<selectorColor>FFFFFF80</selectorColor>
-			<selectorLayer>middle</selectorLayer>-->
 			<zIndex>13</zIndex>
 		</grid>
 		
@@ -256,7 +246,7 @@
 			<interpolation>linear</interpolation>
 			<default>${background_default}</default>
 			<path>${background_system}</path>
-			<saturation>.3</saturation>
+			<saturation>.8</saturation>
 			<opacity>0.2</opacity>
 			<zIndex>10</zIndex>
 		</image>
