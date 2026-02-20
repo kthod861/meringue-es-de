@@ -16,8 +16,8 @@
   </aspectRatio>
   <aspectRatio name="4:3, 3:2">
     <variables>
-        <grid-base-item-w>0.142</grid-base-item-w>
-        <grid-base-item-h>0.120</grid-base-item-h>
+        <grid-base-item-w>0.124</grid-base-item-w>
+        <grid-base-item-h>0.105</grid-base-item-h>
         <grid-item-spacing>0.0</grid-item-spacing>
     </variables>
   </aspectRatio>
@@ -76,8 +76,8 @@
   </aspectRatio>
   <aspectRatio name="4:3, 3:2">
     <variables>
-        <grid-base-item-w>0.199</grid-base-item-w>
-        <grid-base-item-h>0.169</grid-base-item-h>
+        <grid-base-item-w>0.249</grid-base-item-w>
+        <grid-base-item-h>0.282</grid-base-item-h>
         <grid-item-spacing>0.0</grid-item-spacing>
     </variables>
   </aspectRatio>
@@ -106,8 +106,8 @@
   </aspectRatio>
   <aspectRatio name="4:3, 3:2">
     <variables>
-        <grid-base-item-w>0.332</grid-base-item-w>
-        <grid-base-item-h>0.211</grid-base-item-h>
+        <grid-base-item-w>0.499</grid-base-item-w>
+        <grid-base-item-h>0.424</grid-base-item-h>
         <grid-item-spacing>0.0</grid-item-spacing>
     </variables>
   </aspectRatio>
