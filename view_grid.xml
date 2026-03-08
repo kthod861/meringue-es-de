@@ -227,14 +227,15 @@
 			<itemSpacing>${grid-item-spacing} -1</itemSpacing>
 			<fractionalRows>true</fractionalRows>
 			<scaleInwards>true</scaleInwards>
-			<unfocusedItemOpacity>1</unfocusedItemOpacity>
-			<unfocusedItemSaturation>.8</unfocusedItemSaturation>
+			<unfocusedItemOpacity>1.</unfocusedItemOpacity>
+			<unfocusedItemDimming>0.65</unfocusedItemDimming>
 			<textColor>ADADAD</textColor>
 			<fontPath>${font_path}</fontPath>
 			<fontSize>0.036111111111111</fontSize>
 			<textRelativeScale>0.9</textRelativeScale>
 			<backgroundImage>./_inc/images/shadow.webp</backgroundImage>
 			<backgroundCornerRadius>0.01</backgroundCornerRadius>
+			
 			<zIndex>13</zIndex>
 		</grid>
 		
@@ -247,7 +248,7 @@
 			<default>${background_default}</default>
 			<path>${background_system}</path>
 			<saturation>.8</saturation>
-			<opacity>0.2</opacity>
+			<opacity>0.05</opacity>
 			<zIndex>10</zIndex>
 		</image>
 		
